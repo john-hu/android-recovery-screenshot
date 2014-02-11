@@ -1,0 +1,6 @@
+#!/sbin/sh
+#
+#
+#
+mkdir -p /data/local/ScreenShots
+/data/local/fb2png /data/local/ScreenShots/Screenshot_`date +%Y_%m_%d_%H.%M.%S`.png
