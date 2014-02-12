@@ -58,7 +58,7 @@ function takeScreenshot() {
   $ADBEXEC shell umount /data
 }
 
-USERINPUT=""
+USERINPUT="-"
 until [ "$USERINPUT" == "2" ]
 do
   clear
